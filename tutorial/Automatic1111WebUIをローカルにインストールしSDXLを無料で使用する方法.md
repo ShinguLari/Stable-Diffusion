@@ -6,7 +6,7 @@
 
 [新宮ラリ・プロフィール](https://www.beacons.ai/shingulari/) 
 
-## このしおりのgithubブランチ切り替えやSDXLの!WebUI解説動画
+## このしおりのgithubブランチ切り替えやSDXLのWebUI解説動画
 [https://youtu.be/m7lq0BmMUvU](https://youtu.be/m7lq0BmMUvU)
 
 ## 必要条件
