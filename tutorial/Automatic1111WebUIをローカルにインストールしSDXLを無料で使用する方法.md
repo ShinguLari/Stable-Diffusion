@@ -82,8 +82,8 @@ Negative
 Deformed, unrealistic, bad quality, grainy, noisy, plastic, hazy, low contrast
 ```
 
-##　Githubのブランチをdevに変更したい時
-devブランチの新機能を試したい時
+## Githubのブランチをdevに変更したい時
+devブランチの新機能を試したい時に使う
 
 * SD WebUIフォルダー内で、CMDを押してコマンドプロンプトを立ち上げ、
 ```
@@ -94,7 +94,8 @@ git checkout dev
 これでdevブランチに切り替えられる。
 
 * あとは webui-user.bat をダブルクリックするとdevブランチの内容がダウンロードされる。
-* 元のブランチに戻したい時は、
+
+元のブランチに戻したい時は、
 ```
 git checkout master
 ```
