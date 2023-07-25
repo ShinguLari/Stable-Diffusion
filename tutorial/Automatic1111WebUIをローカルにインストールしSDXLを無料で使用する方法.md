@@ -6,6 +6,9 @@
 
 [新宮ラリ・プロフィール](https://www.beacons.ai/shingulari/) 
 
+## このしおりのgithubブランチ切り替えやSDXLの!WebUI解説動画
+[https://youtu.be/m7lq0BmMUvU](https://youtu.be/m7lq0BmMUvU)
+
 ## 必要条件
 
 **Pythonとgitのインストールの仕方
@@ -46,14 +49,10 @@
 * Automatic1111 レポ　リンク : https://github.com/AUTOMATIC1111/stable-diffusion-webui
 * V1.5 SDXL 変更ログ : https://github.com/AUTOMATIC1111/stable-diffusion-webui/blob/release_candidate/CHANGELOG.md
 
-* 最初に、Automatic1111 を動画で説明するフォルダ内へgit cloneして下さい。
+* 最初に、Automatic1111 をお好きなフォルダ内へgit cloneして下さい。
 
-* 次に、 そのフォルダ内でコマンドプロンプトを開き、 ブランチをdevへ変更します。（※7/24現在ではdevブランチのみSDXLに対応）
-```
-git checkout dev
-```
-
-* それから動画の通り、通常通りにインストールして下さい。
+* ※7/25現在、webui-user.batに上記の引数を追記し、
+webui-user.batをダブルクリックするとWebUI1.5.0がMasterブランチからダウンロードされます。
 
 **既存のSD WebUIをアップグレードする時**
 
@@ -65,10 +64,6 @@ git checkout dev
 git pull
 ```
 
-そしてdevバージョンへチェックアウト
-```
-git checkout dev
-```
 ※上のチャプターの「webui-user.batへの追記」を行って下さい。
 
 そして通常通りwebui-user.batをダブルクリックしてStable Diffusionを起動して下さい。
@@ -87,6 +82,24 @@ Negative
 Deformed, unrealistic, bad quality, grainy, noisy, plastic, hazy, low contrast
 ```
 
-## 利用したcommit hash
+##　Githubのブランチをdevに変更したい時
+devブランチの新機能を試したい時
+
+* SD WebUIフォルダー内で、CMDを押してコマンドプロンプトを立ち上げ、
+```
+git checkout dev
+```
+
+を入力する。
+これでdevブランチに切り替えられる。
+
+* あとは webui-user.bat をダブルクリックするとdevブランチの内容がダウンロードされる。
+* 元のブランチに戻したい時は、
+```
+git checkout master
+```
+  
+
+## 今回利用したcommit hash
 
 4bf64976c1971fe2ff8931dd094306d297ebabcf
