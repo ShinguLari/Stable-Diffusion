@@ -32,7 +32,8 @@
 ※次のチャプターの「手動インストール」を実行後に行って下さい。
 
 * webui-user.bat ファイルを右クリックから編集して下記のパラメータを追加して下さい。
-* ```set COMMANDLINE_ARGS=--no-half-vae --xformers```
+* ```set COMMANDLINE_ARGS=--xformers```
+* ※--no half vaeの引数は無くても正式版1.5.0では動きました。
 * もし 'out of memory error' が出たら以下のパラメータを試して下さい。medvramから先に試して下さい。
 * ```--no-half-vae``` はSDXLに必要ですが、 VAEエラーが出ない限りはStable Diffusion 1.5 モデルには使わない方がいいです。
 * ```set COMMANDLINE_ARGS=--no-half-vae --xformers --medvram```
