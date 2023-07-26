@@ -48,6 +48,9 @@
 **SDXL用WebUI1111のインストールの仕方**
 
 * Automatic1111 レポ　リンク : https://github.com/AUTOMATIC1111/stable-diffusion-webui
+```
+git clone https://github.com/AUTOMATIC1111/stable-diffusion-webui
+```
 * V1.5 SDXL 変更ログ : https://github.com/AUTOMATIC1111/stable-diffusion-webui/blob/release_candidate/CHANGELOG.md
 
 * 最初に、Automatic1111 をお好きなフォルダ内へgit cloneして下さい。
