@@ -37,6 +37,11 @@
 
 <br>
 
+## SDXL対応WebUI & ComfyUI Colabバージョンのページ
+[https://github.com/ShinguLari/sdxl-colab](https://github.com/ShinguLari/sdxl-colab)
+
+<br>
+
 ## webui-user.batへの追記
 ※次のチャプターの「手動インストール」を実行後に行って下さい。
 
@@ -55,8 +60,11 @@
 ### 手動インストール方法
 
 **SDXL safetensorsファイル２つを公式ページからダウンロードして下さい。**
-* SDXL Base : https://huggingface.co/stabilityai/stable-diffusion-xl-base-0.9/tree/main
-* SDXL Refiner : https://huggingface.co/stabilityai/stable-diffusion-xl-refiner-0.9/tree/main
+* SDXL1.0 Base : https://huggingface.co/stabilityai/stable-diffusion-xl-base-1.0/tree/main
+* SDXL1.0 Refiner : https://huggingface.co/stabilityai/stable-diffusion-xl-refiner-1.0/tree/main
+* SDXL VAE : https://huggingface.co/stabilityai/sdxl-vae/tree/main
+* SDXL0.9 Base : https://huggingface.co/stabilityai/stable-diffusion-xl-base-0.9/tree/main
+* SDXL0.9 Refiner : https://huggingface.co/stabilityai/stable-diffusion-xl-refiner-0.9/tree/main
    
 <br>
 
