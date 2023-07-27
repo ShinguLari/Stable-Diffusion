@@ -18,7 +18,7 @@
 
 ## 必要条件
 
-**😉Pythonとgitのインストールの仕方
+**😉Pythonとgitのインストールの仕方**
 * [git for Windowsインストール動画 (1:10~)](https://youtu.be/nJCwnd3QFX0?t=70)
 * [Pythonインストール動画 (1:50~)](https://youtu.be/nJCwnd3QFX0?t=110)
 
@@ -37,7 +37,7 @@
 
 <br>
 
-## 😊Colabで使えるSDXL対応WebUI & ComfyUI のページ
+## 😇Colabで使えるSDXL対応WebUI & ComfyUI のページ
 [https://github.com/ShinguLari/sdxl-colab](https://github.com/ShinguLari/sdxl-colab)
 
 <br>
