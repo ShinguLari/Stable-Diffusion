@@ -10,7 +10,7 @@
 <br>
 
 ## このしおりのgithubブランチ切り替えやSDXLのWebUI解説動画
-[ブランチ切り替え方法解説動画](https://youtu.be/m7lq0BmMUvU)
+[Githubブランチ切り替え方法解説動画(開発者バージョンを試したい方)](https://youtu.be/m7lq0BmMUvU)
 
 [WebUI1.5.0簡単インストールと5つの運用方解説動画]()
 
